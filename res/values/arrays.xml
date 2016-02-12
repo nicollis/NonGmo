@@ -1,0 +1,55 @@
+1<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Category Names and Values -->
+    <string-array name="categories_names">
+        <item>Alternative Dairy Products</item>
+        <item>Baby Food &amp; Infant Formula</item>
+        <item>Beverages</item>
+        <item>Body Care Products</item>
+        <item>Breads &amp; Baked Goods</item>
+        <item>Candy, Chocolate, Desserts &amp; Sweeteners</item>
+        <item>Cereal &amp; Breakfast Foods</item>
+        <item>Condiments, Oils, Dressings &amp; Spreads</item>
+        <item>Dairy Products</item>
+        <item>Feed &amp; Seed</item>
+        <item>Fruits &amp; Vegetables</item>
+        <item>Grains, Beans, &amp; Flour</item>
+        <item>Herbs, Spices &amp; Other Ingredients</item>
+        <item>Meat, Fish &amp; Eggs</item>
+        <item>Mercantile</item>
+        <item>Packaged/Frozen Meals</item>
+        <item>Pasta</item>
+        <item>Pet Products</item>
+        <item>Snack Foods &amp; Bars</item>
+        <item>Soups &amp; Sauces</item>
+        <item>Tofu, Tempeh, &amp; Alternative Meat Products</item>
+        <item>Vitamins &amp; Supplements</item>
+        <item>Wholesale Ingredients</item>
+    </string-array>
+    
+    <string-array name="categories_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>13</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+    </string-array>
+</resources>

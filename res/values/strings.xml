@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General Purpose Strings -->
+    <string name="app_name">NonGmo</string>
+    <string name="company_name">by Odua</string>
+    <string name="action_settings">Settings</string>
+    <string name="categories_base_url">http://api.nongmoapp.com/xml.php?q=</string>
+    <string name="categories_base_url_backup">http://api2.nongmoapp.com/xml.php?q=</string>
+    <string name="categories_sync_url">http://api.nongmoapp.com/sync.php</string>
+    <string name="categories_sync_backup_url">http://api2.nongmoapp.com/sync.php</string>
+    <string name="xml_header">&#0060;?xml version="1.0" encoding=&#0034;UTF-8&#0034; standalone="no"?&#0062;\n</string>
+    <string name="play_store_link">market://details?id=co.odua.nongmo</string>
+    <string name="about_gmo_link">http://www.nongmoproject.org/learn-more/what-is-gmo/</string>
+    
+    <!-- Loading Screen Strings -->
+    <string name="loading_text_label">Downloading and Saving Data, this might take a mintue over a cell network</string>
+    <string name="loading_text_message">Loading info&#8230;</string>
+    <string name="downloading_text_message">Downloading Categories Data&#8230;</string>
+    <string name="completed_text_message">Processing and Saving Data&#160;</string>
+    <string name="download_failed_toast">Downloading Failed, Check your network connection</string>
+    
+    <!-- NonGmoAcitivity Strings -->
+    <string name="categories">Categories</string>
+    <string name="brands">Brands</string>
+    <string name="products">Products</string>
+    
+    <!-- Menu Items -->
+    <string name="search">Search</string>
+    <string name="search_hint">Search Products/Brands</string>
+    <string name="search_nothing_found">No Results Found.</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="buy_veggies">Buying Veggies</string>
+    <string name="review">Review NonGmo</string>
+    <string name="more_about_gmos">More About Gmo\'s</string>
+    <string name="clear_history">Clear Search History</string>
+    
+    <!-- Buying Veggies -->
+	<string name="about_buying_veggies">While states are having trouble getting GMO labing to pass, GMO labing of fruits and vegtables are already required! Here is how to tell.</string>
+	<string name="organic_title">Organic</string>
+	<string name="conventional_title">Conventional</string>
+	<string name="gmo_title">GMO</string>
+	<string name="organic_content">5 digit code starting with 9. #94011</string>
+	<string name="conventional_content">4 digit code starting with 4. #4139</string>
+	<string name="gmo_content">5 digit code starting with 8. #84805</string>
+	
+	<!-- Billing Strings -->
+	
+	<string name="verify_issue">Google couldn\'t verify your purchase</string>
+	<string name="thanks_for_upgrade">Thanks for your purchase</string>
+	<string name="failed_to_parse_purchase">Failed to parse purchase data</string>
+	<string name="already_upgraded">already upgraded</string>
+	<string name="error_opening_store">Error Opening Play Store</string>
+</resources>

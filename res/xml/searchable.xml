@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Add voice search support for version 4.0 and above -->
+<searchable xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:label="@string/search"
+    android:hint="@string/search_hint"
+    android:voiceSearchMode="showVoiceSearchButton|launchRecognizer"
+    android:searchSuggestAuthority="co.odua.nongmo.search.SuggestionProvider"
+    android:searchSuggestSelection=" ?"
+    />

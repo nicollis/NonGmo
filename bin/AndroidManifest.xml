@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.odua.nongmo"
+    android:versionCode="16390"
+    android:versionName="1.6.39" >
+    <supports-screens 
+        android:largeScreens="true"
+        android:xlargeScreens="true"/>
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <!-- Splash Screen that loads or downloads needed data -->
+        <activity
+            android:name="co.odua.nongmo.LoadingScreen"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Main Activity after data loads -->
+        <activity android:name=".NonGmoActivity">
+            <meta-data android:name="android.app.default_searchable"
+                android:value="co.odua.nongmo.search.SearchableActivity"/>
+        </activity>
+        <!-- Updater Service -->
+        <service android:name="co.odua.nongmo.data.SyncService"/>
+        <!-- Search Activity Setup -->
+        <activity android:name="co.odua.nongmo.search.SearchableActivity"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+        </activity>
+        <provider android:name="co.odua.nongmo.search.SuggestionProvider"
+            android:authorities="co.odua.nongmo.search.SuggestionProvider"
+            android:exported="false"
+            />
+        
+        <activity android:name="com.google.ads.AdActivity"
+              android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+    </application>
+
+</manifest>
